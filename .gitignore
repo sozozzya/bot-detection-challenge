@@ -1,2 +1,27 @@
+# Virtual environment
+.venv/
+venv/
+
+# Dataset
+data/
+results/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
 # IDE
 .idea/
+.vscode/
+
+# OS
+.DS_Store
+
+# Local environment
+.env
+
+# Logs
+*.log

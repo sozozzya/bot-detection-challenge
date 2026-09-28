@@ -1,0 +1,8 @@
+model=CatBoost
+seed=42
+n_features=37
+n_train=11091
+n_test=4909
+validation=walk_forward
+primary_metric=precision_at_recall_0.70
+score_source=predict_proba[:,1]
